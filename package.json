@@ -6,7 +6,7 @@
   "dependencies": {
     "eris": "^0.15.1",
     "express": "^4.17.1",
-    "jsdoc": "3.5.5"
+    "jsdoc": "^3.5.5"
   },
   "devDependencies": {},
   "scripts": {

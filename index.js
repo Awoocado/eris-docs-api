@@ -1,8 +1,13 @@
+const express = require("express")
 const docs = require("./eris")
 
-require("express")().get('/:query?', function (req, res) {
-  var query = req.params.query
+const app = express()
+
+app.get('/', function (req, res) {
+  var query = req.query.query
   if (!query) return res.send({ content: "?" })
   res.send(docs(query.split(" ")))
-}).listen(process.env.PORT || 5000)
+})
+
+app.listen(process.env.PORT || 5000)
 

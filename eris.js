@@ -226,5 +226,5 @@ module.exports = args => {
       },
     }
   }
-  handleResults(items)
+  return handleResults(items)
 }

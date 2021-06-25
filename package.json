@@ -1,0 +1,19 @@
+{
+  "name": "eris-docs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eris": "^0.15.1",
+    "express": "^4.17.1",
+    "jsdoc": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "jsdoc": "node_modules/.bin/jsdoc node_modules/eris/lib -r -X -d console",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

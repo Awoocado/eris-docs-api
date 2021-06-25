@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/', function (req, res) {
   var query = req.query.query
-  if (!query) return res.send({ content: "?" })
+  if (!query) return res.send({ usage: "https://eris-docs-api.herokuapp.com/?query=Client%23createMessagehttps://eris-docs-api.herokuapp.com/?query=Client#createMessage" })
   res.send(docs(query.split(" ")))
 })
 

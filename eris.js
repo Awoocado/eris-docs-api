@@ -11,7 +11,7 @@ const memberCategories = ['properties', 'methods', 'events']
 const embedDefaults = {
   color: 0x4e98d8,
   footer: {
-    text: `Docs generated from eris@${erisPackage.version} | e;docs Class#property`,
+    text: `Docs generated from eris@${erisPackage.version} | Class#property`,
   },
 }
 
